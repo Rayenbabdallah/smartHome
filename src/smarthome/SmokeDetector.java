@@ -4,7 +4,7 @@ public class SmokeDetector extends SmartDevice implements SensorDevice, Controll
     private boolean smokeDetected = false;
 
     public SmokeDetector() {
-        super(0.0); // battery powered
+        super(0.0); 
     }
 
     @Override

@@ -7,7 +7,7 @@ public class Thermostat extends SmartDevice implements Controllable, EnergyConsu
     private LocalTime scheduledTime;
 
     public Thermostat(double targetTemperature) {
-        super(0.01); // low constant draw for controller
+        super(0.01); 
         this.targetTemperature = targetTemperature;
     }
 

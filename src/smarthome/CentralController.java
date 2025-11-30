@@ -15,7 +15,7 @@ public class CentralController {
     private final List<AutomationRule> rules = new ArrayList<>();
     private final Map<String, Double> energyLedger = new HashMap<>();
     private double energyToday = 0.0;
-    private double energyMonth = 50.0; // baseline so monthly bar is not empty
+    private double energyMonth = 50.0; 
     private double currentConsumption = 0.0;
     private TextArea logArea;
 
@@ -50,7 +50,7 @@ public class CentralController {
                     if (device instanceof Light && "Living Room".equalsIgnoreCase(device.getRoom().getName())) {
                         turnOnDevice(device);
                     } else if (device instanceof Light) {
-                        // leave others unchanged
+                        
                     }
                     if (device instanceof DoorLock) {
                         turnOffDevice(device);

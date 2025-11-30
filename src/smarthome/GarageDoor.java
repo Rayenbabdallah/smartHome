@@ -2,17 +2,17 @@ package smarthome;
 
 public class GarageDoor extends SmartDevice implements Controllable, EnergyConsumer {
     public GarageDoor() {
-        super(0.3); // 300W motor while moving
+        super(0.3); 
     }
 
     @Override
     public void turnOn() {
-        markTurnedOn(); // open
+        markTurnedOn(); 
     }
 
     @Override
     public void turnOff() {
-        markTurnedOff(); // close
+        markTurnedOff(); 
     }
 
     @Override

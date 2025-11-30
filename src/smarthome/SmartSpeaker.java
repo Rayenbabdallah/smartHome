@@ -4,7 +4,7 @@ public class SmartSpeaker extends SmartDevice implements Controllable, EnergyCon
     private int volume = 50;
 
     public SmartSpeaker() {
-        super(0.02); // 20W
+        super(0.02); 
     }
 
     @Override

@@ -5,7 +5,7 @@ public class SmartTV extends SmartDevice implements Controllable, EnergyConsumer
     private int volume = 50;
 
     public SmartTV() {
-        super(0.1); // 100W
+        super(0.1); 
     }
 
     @Override

@@ -7,12 +7,12 @@ public class DoorLock extends SmartDevice implements Controllable {
 
     @Override
     public void turnOn() {
-        markTurnedOn(); // lock
+        markTurnedOn(); 
     }
 
     @Override
     public void turnOff() {
-        markTurnedOff(); // unlock
+        markTurnedOff(); 
     }
 
     @Override

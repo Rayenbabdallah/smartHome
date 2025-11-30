@@ -2,7 +2,7 @@ package smarthome;
 
 public class Camera extends SmartDevice implements Controllable, EnergyConsumer {
     public Camera() {
-        super(0.05); // 50W when active
+        super(0.05); 
     }
 
     @Override

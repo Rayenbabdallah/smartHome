@@ -4,7 +4,7 @@ public class Light extends SmartDevice implements Controllable, EnergyConsumer {
     private int brightness;
 
     public Light(int brightness) {
-        super(0.06); // 60W bulb -> 0.06 kW
+        super(0.06); 
         setBrightness(brightness);
     }
 

@@ -1,21 +1,18 @@
 package smarthome;
 
-/**
- * Base class for all smart devices in the simulator.
- * Tracks power usage, unique ID generation, and the room association.
- */
+
 public abstract class SmartDevice {
-    /** Unique identifier for the device (e.g., Light1, Thermostat2). */
+    
     protected final String id;
-    /** On/off state of the device. */
+    
     protected boolean isOn = false;
-    /** Last timestamp when the device was turned on (ms). */
+    
     protected long lastOnTime = 0;
-    /** Accumulated energy usage in kWh. */
+    
     protected double energyUsed = 0.0;
-    /** Power consumption rate (kW) when the device is on. */
+    
     protected final double powerUsage;
-    /** Reference to the room this device belongs to. */
+    
     protected Room room;
 
     private static final java.util.HashMap<String, Integer> TYPE_COUNT = new java.util.HashMap<>();

@@ -2,7 +2,7 @@ package smarthome;
 
 import java.util.function.Predicate;
 
-/** Simple IF (condition) THEN (action) rule. */
+
 public class AutomationRule {
     private final Predicate<CentralController> condition;
     private final Runnable action;

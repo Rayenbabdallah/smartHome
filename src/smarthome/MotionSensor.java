@@ -4,17 +4,17 @@ public class MotionSensor extends SmartDevice implements SensorDevice, Controlla
     private boolean motionDetected = false;
 
     public MotionSensor() {
-        super(0.0); // negligible draw
+        super(0.0); 
     }
 
     @Override
     public void turnOn() {
-        markTurnedOn(); // arm sensor
+        markTurnedOn(); 
     }
 
     @Override
     public void turnOff() {
-        markTurnedOff(); // disarm sensor
+        markTurnedOff(); 
         motionDetected = false;
     }
 

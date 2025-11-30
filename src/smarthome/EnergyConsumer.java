@@ -1,6 +1,6 @@
 package smarthome;
 
-/** Devices that consume measurable power. */
+
 public interface EnergyConsumer {
     double getPowerConsumption();
 
